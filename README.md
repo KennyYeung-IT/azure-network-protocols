@@ -22,10 +22,10 @@ In this project, I observe various network traffic to and from Azure Virtual Mac
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Create a resource group in the Azure Portal.
+- Step 2: Create a Windows 10 virtual machine within the resource group.
+- Step 3: Create a virtual network for the virtual machine. When you create a virtual network, it will automatically create a network security group, network interface, and hard drive.
+- Step 4: Create a Linux (Ubuntu_ virtual machine within the resource group and virtual network. 
 
 <h2>Actions and Observations</h2>
 
