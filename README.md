@@ -55,7 +55,9 @@ Install wireshark https://www.wireshark.org/ in the Windows 10 virtual machine.
 Filter traffic by ICMP and attempt to ping the Linux virtual machines' private ip address through powershell. Requests and replies can be seen. 
 </p>
 <br />
-
+</p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <p>
 In order to observe what happens when the inboundings pings are blocked a network security group is enabled to disable inbounding ICMP traffic.  
 </p>
