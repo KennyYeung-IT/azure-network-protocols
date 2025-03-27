@@ -31,7 +31,7 @@ In this project, I observe various network traffic to and from Azure Virtual Mac
 <h2>Actions and Observations</h2>
 
 <p>
-<img https://imgur.com/a/nWauolk/>
+<img https://imgur.com/a/nWauolk"/>
 </p>
 <p>
 Open the Windows 10 and linux virtual machines via remote desktop connection by gabbing their public ip addresses through the Azure portal, making sure that the virtual machines are on the same virtual network.   
