@@ -30,18 +30,17 @@ In this project, I observe various network traffic to and from Azure Virtual Mac
 
 <h2>Actions and Observations</h2>
 
+![image](https://github.com/user-attachments/assets/9db918ed-badf-4678-acff-33395a471ba0)
+![image](https://github.com/user-attachments/assets/0070f67f-aad3-46fe-a8c3-b1d680a09eff)
+![image](https://github.com/user-attachments/assets/1c2a4f6c-aa87-4836-9012-18b993790f2c)
 
-<img https://i.imgur.com/k1cV4nV.png />
-
-<p>
 Open the Windows 10 and linux virtual machines via remote desktop connection by gabbing their public ip addresses through the Azure portal, making sure that the virtual machines are on the same virtual network.   
   
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/user-attachments/assets/8668f5a5-9761-4363-806d-71e030fc5df7)
+
 <p>
 Install wireshark https://www.wireshark.org/ in the Windows 10 virtual machine.
 
