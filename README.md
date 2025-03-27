@@ -47,30 +47,31 @@ Install wireshark https://www.wireshark.org/ in the Windows 10 virtual machine.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/user-attachments/assets/939687d9-9af7-42f3-a32c-cfbad2be8d7a)
+
 <p>
 Filter traffic by ICMP and attempt to ping the Linux virtual machines' private ip address through powershell. Requests and replies can be seen. 
 </p>
 <br />
-</p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
+![image](https://github.com/user-attachments/assets/772f461d-8360-4242-8728-f0556817002f)
+![image](https://github.com/user-attachments/assets/25c33297-02c2-4942-ad69-3a0050756fd3)
+
+
 <p>
 In order to observe what happens when the inboundings pings are blocked a network security group is enabled to disable inbounding ICMP traffic.  
 </p>
-</p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
+
+![image](https://github.com/user-attachments/assets/c72dbffb-31dd-421d-bd6c-7d4c74197cad)
+
 <p>
-Additionally, Secure Shell (SSH) can be simulated here, allowing a user to connect to the Linux virtual machine through the Windows virtual machine. When filtering for SSH traffic in Wireshark, it won’t show any results. However, by executing the command ssh labuser2@10.0.0.5 in PowerShell and using the user's password to log in, you will be able to see the SSH traffic.
+Additionally, Secure Shell (SSH) can be simulated here, allowing a user to connect to the Linux virtual machine through the Windows virtual machine. When filtering for SSH traffic in Wireshark, it won’t show any results. However, by executing the command ssh labuser@(private ip address) in PowerShell and using the user's password to log in, you will be able to see the SSH traffic.
 
   
 
-</p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/user-attachments/assets/cb89fb82-e175-4c12-97c6-ffb19c68f1a6)
+
 <p>
 Wireshark is also able to filter DNS traffic and we can observe the traffic by putting in the command "nslookup" find the ip address of human domains such as google.com.
 </p>
