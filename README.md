@@ -76,16 +76,15 @@ Additionally, Secure Shell (SSH) can be simulated here, allowing a user to conne
 Wireshark is also able to filter DNS traffic and we can observe the traffic by putting in the command "nslookup" find the ip address of human domains such as google.com.
 </p>
 
-</p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/user-attachments/assets/5f0a594d-f834-49db-b169-b1e1e6a04a04)
+
 <p>
 Next, it can filter out DHCP in which we can physically observe the discover, acknowledge, offer, request, and release portion of the traffic. 
 </p>
 
-</p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
+![image](https://github.com/user-attachments/assets/50f67ad9-b389-4ff8-8b77-a384dd6834e6)
+
 <p>
 Finally, filter for RDP traffic in Wireshark, which displays the Remote Desktop Protocol traffic. It shows a constant stream due to ongoing changes in the virtual machine, such as screen updates or user inputs like mouse clicks and keyboard actions.
 
