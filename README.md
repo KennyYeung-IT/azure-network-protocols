@@ -30,9 +30,9 @@ In this project, I observe various network traffic to and from Azure Virtual Mac
 
 <h2>Actions and Observations</h2>
 
-![image](https://github.com/user-attachments/assets/9db918ed-badf-4678-acff-33395a471ba0)
-![image](https://github.com/user-attachments/assets/372e9196-a84a-47b7-9b75-27b113950063)
-![image](https://github.com/user-attachments/assets/1c2a4f6c-aa87-4836-9012-18b993790f2c)
+![image](https://github.com/user-attachments/assets/5aa47f0d-8c5c-4193-b39f-809f931f5fd3)
+![image](https://github.com/user-attachments/assets/86265616-de8f-47e8-9667-e38ca4da0806)
+![image](https://github.com/user-attachments/assets/40f7649d-24c4-4324-a680-d85707576895)
 
 Open the Windows 10 and linux virtual machines via remote desktop connection by gabbing their public ip addresses through the Azure portal, making sure that the virtual machines are on the same virtual network.   
   
@@ -47,15 +47,17 @@ Install wireshark https://www.wireshark.org/ in the Windows 10 virtual machine.
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/939687d9-9af7-42f3-a32c-cfbad2be8d7a)
+![image](https://github.com/user-attachments/assets/a7ee318b-dfff-4506-bdb1-0ea3c4630e6d)
 
 <p>
 Filter traffic by ICMP and attempt to ping the Linux virtual machines' private ip address through powershell. Requests and replies can be seen. 
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/772f461d-8360-4242-8728-f0556817002f)
-![image](https://github.com/user-attachments/assets/25c33297-02c2-4942-ad69-3a0050756fd3)
+![image](https://github.com/user-attachments/assets/712cbd01-2eee-478b-b0c6-eddaf7abbb0a)
+
+![image](https://github.com/user-attachments/assets/c918803d-17cb-4325-b14b-373d1d90047e)
+
 
 
 <p>
@@ -64,6 +66,8 @@ In order to observe what happens when the inboundings pings are blocked a networ
 
 
 ![image](https://github.com/user-attachments/assets/c72dbffb-31dd-421d-bd6c-7d4c74197cad)
+![image](https://github.com/user-attachments/assets/a354e74f-98cd-4165-a7ea-2c0b39dc7504)
+
 
 <p>
 Additionally, Secure Shell (SSH) can be simulated here, allowing a user to connect to the Linux virtual machine through the Windows virtual machine. When filtering for SSH traffic in Wireshark, it won’t show any results. However, by executing the command ssh labuser@(private ip address) in PowerShell and using the user's password to log in, you will be able to see the SSH traffic.
